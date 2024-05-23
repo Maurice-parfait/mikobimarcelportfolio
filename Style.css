@@ -1,0 +1,655 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.contenus{
+    position: fixed;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    background: #444;
+    padding: 10px 70px;
+}   
+
+.logo{
+    font-size: 1.5rem;
+    color: white;
+}
+.navlink{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+
+.navlink ul{
+    list-style-type: none;
+    display: flex;
+
+}
+
+.navlink ul li a{
+    text-decoration: none;  
+    margin: 20px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+.navlink ul li a:hover{
+    color: #f17bae;
+}
+
+
+.menu{
+    display: none;
+}
+
+/* *********************** L'acceuil ********************** */
+
+#lacceuil{
+    background: #3333;
+    height: 100vh;
+}
+
+.home{
+    margin: 0px 70px 0px 70px;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+   font-family: sans-serif;
+
+}
+
+.home_rigth{
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* perspective: 1000px; */
+
+}
+
+.photo{
+    height: 500px;
+    width: auto;
+    /* border-radius: 0%  25%; */
+    /* margin-right: 50px; */
+    animation-delay: 3s;
+    animation: animation1 2s linear;
+}
+
+.home_left{
+    margin-right: 100px;
+    animation-delay: 2s;
+    animation: animation1 2s linear;
+}
+
+#animation{
+    font-size: 2.5rem;
+    color: #0000,
+}
+
+.home_left h2{
+    font-size: 2.5rem;
+    /* color: #f1f1f1f1; */
+    margin: 10px 0px;
+    animation-delay: 4s;
+    animation: animation1 2s linear;
+}
+
+.home_left p{
+        /* color: #f1f1f1f1; */
+}
+
+.iconpage1{
+    margin: 20px 0px;
+}
+
+.iconpage1 i{
+    border: 1px solid #f1f1f1f1;
+    padding: 8px 10px;
+    background-color: #000;
+    border-radius: 10px;
+    color: #f1f1f1f1;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.iconpage1 i:hover{
+    background: #666;
+    color: black;
+}
+
+.buton{
+    margin: 20px 0px;
+    animation-delay: 6s;
+    animation: animation1 2s linear;
+}
+.buton a{
+    text-decoration: 0;
+    font-size: 1.2rem;
+    color: #f1f1f1f1;
+    background: #f17bae;
+    padding: 8px 10px;
+    border-radius: 10px;
+    /* border: 1px solid #000; */
+    border: none;
+    
+}
+
+.buton a:hover{
+    background-color: #f17bae;
+    color: black;
+    transition: 0.5s;
+
+}
+
+
+
+
+
+/* *********************** Apropos ********************** */
+
+
+
+
+#propo{
+    /* width: 100%; */
+    height: 100vh;
+    padding: 0px 70px 0px 70px;
+    /* background-color:#222; */
+    background-color: #808080;
+    padding-top: 100px;
+
+ }
+
+/* .blog{
+    margin: 0px 70px 50px 70px;
+    box-shadow: #0005 5px 5px 20px;
+    border-radius: 20px;
+    padding: 10px;
+} */
+
+.blog > h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: white;
+    /* color: #696969; */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+
+.image1{
+    height: 490px;
+    width: auto;
+    border-radius: 25%  0%;
+    margin-right: 6px;
+}
+
+.texte{
+    gap: 20px;
+    color: white;
+    margin: 0px 50px 0 10px;
+}
+
+strong{
+    color: #f17bae;
+}
+
+.texte > h1{
+    font-size: 3rem;
+    margin: 10px auto;
+    color: white;
+}
+
+.skills{
+    width: 90%;
+    margin-left: 20px;
+}
+
+.rice{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lafin{
+    display: inline-flex;
+    width: 90%;
+    justify-content: end;
+}
+
+.java{
+    display: inline-flex;
+    width: 85%;
+    justify-content: end;
+}
+
+.bar{
+    width: 100%;
+    height: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.bar .progress{
+    height: 100%;
+    background-color: #f17bae;
+    border-radius: 10px ;
+}
+
+.html{
+    width: 85%;
+}
+
+.css{
+    width: 80%;
+}
+
+.sript{
+    width: 80%;
+}
+
+.php{
+    width: 80%;
+}
+
+
+.contacme{
+    padding: 8px 10px 8px 10px;
+    border-radius: 7px;
+    margin-top: 4%;
+    margin-right: 10px;
+    background: #f17bae;
+    font-size: 1rem;
+    /* border: 2px solid #f17bae; */
+    border: none;
+}
+
+.contacme > a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+
+
+.contacme:hover{
+    background-color: #333;
+}
+
+.Dowload{
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: 2px solid #f17bae;
+    background: #333;
+    color: white;
+}
+
+.Dowload:hover{
+    background-color: #ffdaea;
+}
+ 
+
+/* *********************** SERVICE ********************** */
+
+#work{
+    width: 100%;
+    height: 100vh;
+    background: #333;
+    padding-top: 100px;
+}
+
+.serv{
+    margin: 0px 70px 50px 70px;
+    box-shadow: #0005 5px 5px 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.serv > h1{
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.slider{
+    overflow: hidden;
+    margin-top: 20px;
+    
+}
+
+.cartes{
+    display: flex;
+    /* animation: glisse 10s infinite; */
+}
+
+.cartes2{
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: #0005 5px 5px 20px;
+    /* border: 1px solid #666; */
+    margin-right: 15px;
+    color: white;
+}
+
+
+.element > img{
+    height: 300px;
+    width: auto;
+    box-sizing: cover;
+    width: 100%;
+    object-fit: cover;
+    animation-delay: 5s;
+    animation: animation1 4s linear;
+}
+
+.element>h4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    animation-delay: 5s;
+    animation: animation1 4s linear;
+}
+
+.element>p{
+    display: flex;
+    justify-content: center;
+    animation-delay: 5s;
+    animation: animation1 4s linear;
+}
+
+.contact{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 0px 0px 80px;
+    background: #f17bae;
+}
+
+.contact>a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact:hover{
+    background: white;
+    transition: 1s;
+}
+  
+@keyframes glisse {
+    0% {
+      transform: translateX(0);
+    }
+
+    10% {
+        transform: translateX(0);
+      }
+  
+    25% {
+      transform: translateX(-200px);
+    }
+    35% {
+        transform: translateX(-200px);
+      }
+  
+    50% {
+      transform: translateX(-400px);
+    }
+    60% {
+        transform: translateX(-400px);
+      }
+  
+    75% {
+      transform: translateX(-600px); 
+    }
+    85% {
+        transform: translateX(-600px); 
+      }
+  
+    100% {
+      transform: translateX(0);
+    }
+}
+  
+   /* *********************** Competences ********************** */
+
+#competences{
+    height: auto;
+    background: #222;
+}
+
+#competences>h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 80px;
+}
+
+.compe{ 
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 70px 0px 70px;
+}
+
+ /* language */
+
+.language{
+    width: 50%;
+
+}
+
+ .lingne{
+    width: 100%;
+    height: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.lingne .progresse{
+    height: 100%;
+    background-color: #f17bae;
+    border-radius: 10px ;
+}
+
+.porcentagee{
+    width: 30%;
+}
+
+
+    /* *********************** CONTACT ********************** */
+
+#contact{
+    height: 100vh;
+    background-color: #222;
+    padding-bottom: 20px;
+
+}
+
+.couver>h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    letter-spacing: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.couver{
+    padding-top: 90px;
+}
+
+.contacter{
+    margin-left: 20%;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.contacter>p{
+    display: flex;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contacter>p>i{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background: #000;
+}
+
+.contacter>p>a{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background: #000;
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contacter>p>a:hover{
+    background-color: #666;
+    color: #000;
+}
+
+.contacter>p>i:hover{
+    background-color: #666;
+    color: #000;
+}
+
+.reseaux{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+.reseaux>a{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 2rem;
+    margin: 10px;
+    background: #000;
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.reseaux>a:hover{
+    background-color: #666;
+    color: black;
+}
+
+
+.unmot{
+    display: flex;
+    justify-content: center;
+    margin: 0px 200px;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+    /* *********************** FOOTER ********************** */
+
+.footer{
+    height: 50vh;
+    background: #111;
+}
+
+.enbas{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 70px 0px 100px;
+    color: white;
+}
+
+.liens{
+    margin-right: 20%;
+    margin-top: 8vh;
+}
+
+.liens>a{
+    display: flex;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.Serve{
+    margin-right: 20%;
+    margin-top: 8vh;
+}
+
+.Serve>a{
+    display: flex;
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.social{
+    margin-top: 8vh;
+}
+
+.social>h1{
+    margin-bottom: 20px;
+}
+
+.social>a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: #000;
+    padding: 10px;
+    font-size: 2em;
+    margin: 5px;
+}
+
+.social>a:hover{
+    background: #666;
+    color: #000;
+}
+
+/* ************************pieds***************************** */
+
+.pieds{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.piedpage>p{
+    margin: 5px auto;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* ************************ LA FIN DE MON SITE ***************************** */
